@@ -108,7 +108,7 @@ public class StudentControllerServlet extends HttpServlet {
 		throws Exception {
 
 		// read student info from form data
-		int id = Integer.parseInt(request.getParameter("studentId"));
+		int id = Integer.parseInt(request.getParameter("id"));
 
 		String password = request.getParameter("password");
 		
@@ -148,12 +148,13 @@ public class StudentControllerServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		String type=request.getParameter("type");
 		Type t=Type.valueOf(type);
-		String id=""+users.size()+1;
+		int newId = users.size()+1;
+		String id= newId + "";
 		//String email = request.getParameter("email");
 		
 		// create a new student object
 		User theStudent = new User(id, username, password,t);
-		
+		studentDbUtil.addStudent(theStudent);
 
 		listStudents(request, response);
 	}
