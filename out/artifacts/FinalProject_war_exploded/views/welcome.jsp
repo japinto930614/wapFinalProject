@@ -24,7 +24,7 @@
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Actors<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="/student">Students</a></li>
-                    <li><a href="/faculties">Faculty Members</a></li>
+                    <li><a href="/faculty">Faculty Members</a></li>
                     <li><a href="/staff">Staffs</a></li>
                 </ul>
             </li>

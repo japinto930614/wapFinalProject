@@ -2,23 +2,23 @@
 <html>
 
 <head>
-	<title>Add Student</title>
+	<title>Add Faculty</title>
 
 	<link type="text/css" rel="stylesheet" href="css/style.css">
-	<link type="text/css" rel="stylesheet" href="css/add-student-style.css">	
+	<link type="text/css" rel="stylesheet" href="css/add-faculty-style.css">
 </head>
 
 <body>
 	<div id="wrapper">
 		<div id="header">
-			<h2>University Student</h2>
+			<h2>University Faculty</h2>
 		</div>
 	</div>
 	
 	<div id="container">
-		<h3>Add Student</h3>
+		<h3>Add Faculty</h3>
 		
-		<form action="student" method="GET">
+		<form action="faculty" method="GET">
 		
 			<input type="hidden" name="command" value="ADD" />
 			
@@ -33,7 +33,7 @@
 						<td><label>Password:</label></td>
 						<td><input type="password" name="password" /></td>
 					</tr>
-					<input type="hidden" name="type" value="Student"/>
+					<input type="hidden" name="type" value="Faculty"/>
 
 <%--					<tr>--%>
 <%--						<td><label>Email:</label></td>--%>
@@ -52,7 +52,7 @@
 		<div style="clear: both;"></div>
 		
 		<p>
-			<a href="StudentControllerServlet">Back to List</a>
+			<a href="FacultyControllerServlet">Back to List</a>
 		</p>
 	</div>
 </body>
