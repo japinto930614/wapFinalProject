@@ -57,7 +57,7 @@ public class StudentDbUtil {
 	public void deleteStudent(String theStudentId)  {
 
 		for(User student:users){
-			if(theStudentId.equals(student.getUsername())){
+			if(theStudentId.equals(student.getId())){
 				int i=users.indexOf(student);
 				users.remove(i);
 			}

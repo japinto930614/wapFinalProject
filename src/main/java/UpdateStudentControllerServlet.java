@@ -7,9 +7,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet("/addstudent")
-public class AddStudentControllerServlet extends HttpServlet {
+@WebServlet("/updatestudent")
+public class UpdateStudentControllerServlet extends HttpServlet {
 
+    private StudentDbUtil studentDbUtil=new StudentDbUtil();
 
     @Override
     public void init() throws ServletException {

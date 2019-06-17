@@ -148,7 +148,8 @@ public class StudentControllerServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		String type=request.getParameter("type");
 		Type t=Type.valueOf(type);
-		String id=""+users.size()+1;
+		int newId = users.size()+1;
+		String id= newId + "";
 		//String email = request.getParameter("email");
 		
 		// create a new student object

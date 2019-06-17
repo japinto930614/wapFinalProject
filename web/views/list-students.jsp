@@ -45,10 +45,10 @@
 <%--					</c:url>--%>
 
 <%--					<!--  set up a link to delete a student -->--%>
-<%--					<c:url var="deleteLink" value="/student">--%>
-<%--						<c:param name="command" value="DELETE" />--%>
-<%--						<c:param name="studentId" value="${tempStudent.id}" />--%>
-<%--					</c:url>--%>
+					<c:url var="deleteLink" value="/student">
+						<c:param name="command" value="DELETE" />
+						<c:param name="studentId" value="${tempStudent.id}" />
+					</c:url>
 
 					<tr>
 						<td> ${tempStudent.id} </td>
