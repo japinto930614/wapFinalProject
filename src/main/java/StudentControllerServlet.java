@@ -153,7 +153,7 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// create a new student object
 		User theStudent = new User(id, username, password,t);
-		
+		studentDbUtil.addStudent(theStudent);
 
 		listStudents(request, response);
 	}
