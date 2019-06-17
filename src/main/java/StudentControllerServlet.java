@@ -108,7 +108,7 @@ public class StudentControllerServlet extends HttpServlet {
 		throws Exception {
 
 		// read student info from form data
-		int id = Integer.parseInt(request.getParameter("studentId"));
+		int id = Integer.parseInt(request.getParameter("id"));
 
 		String password = request.getParameter("password");
 		

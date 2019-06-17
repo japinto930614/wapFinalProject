@@ -55,7 +55,7 @@
 						<td> ${tempStudent.username} </td>
 						<td> ${tempStudent.password} </td>
 						<td>
-							<a href="${tempLink}">Update</a>
+							<a href="/updatestudent?id=${tempStudent.id}&username=${tempStudent.username}">Update</a>
 							 |
 							<a href="${deleteLink}"
 							onclick="if (!(confirm('Are you sure you want to delete this student?'))) return false">

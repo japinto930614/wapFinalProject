@@ -2,6 +2,7 @@ import models.Type;
 import models.User;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class StudentDbUtil {
@@ -56,10 +57,20 @@ public class StudentDbUtil {
 
 	public void deleteStudent(String theStudentId)  {
 
-		for(User student:users){
-			if(theStudentId.equals(student.getId())){
-				int i=users.indexOf(student);
-				users.remove(i);
+//		for(User student:users){
+//			if(theStudentId.equals(student.getId())){
+//				int i=users.indexOf(student);
+//				users.remove(i);
+//			}
+//		}
+
+
+		for (Iterator<User> iterator = users.iterator(); iterator.hasNext(); ) {
+			User value = iterator.next();
+
+			if(theStudentId.equals(value.getId())){
+				int i=users.indexOf(value);
+				iterator.remove();
 			}
 		}
 

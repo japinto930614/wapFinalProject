@@ -20,19 +20,20 @@
 		
 		<form action="student" method="GET">
 		
-			<input type="hidden" name="command" value="ADD" />
+			<input type="hidden" name="command" value="UPDATE" />
 			
 			<table>
 				<tbody>
 					<tr>
 						<td><label>Username:</label></td>
-						<td><input type="text" name="username" /></td>
+						<td><input type="text" name="username" readonly="readonly" value="${username}"/></td>
 					</tr>
 
 					<tr>
 						<td><label>Password:</label></td>
-						<td><input type="password" name="password" /></td>
+						<td><input type="password" name="password" value="${password}"/></td>
 					</tr>
+					<input type="hidden" name="id" value="${id}"/>
 					<input type="hidden" name="type" value="Student"/>
 
 <%--					<tr>--%>

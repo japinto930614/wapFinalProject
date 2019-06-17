@@ -10,7 +10,6 @@ import java.io.IOException;
 @WebServlet("/updatestudent")
 public class UpdateStudentControllerServlet extends HttpServlet {
 
-    private StudentDbUtil studentDbUtil=new StudentDbUtil();
 
     @Override
     public void init() throws ServletException {
@@ -19,8 +18,13 @@ public class UpdateStudentControllerServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("views/add-student-form.jsp");
-        dispatcher.forward(request, response);
+        String id = request.getParameter("id");
+        String username = request.getParameter("username");
+        request.setAttribute("id",id);
+        request.setAttribute("username", username);
+        request.getRequestDispatcher("views/update-student-form.jsp").forward(request, response);
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("views/update-student-form.jsp");
+//        dispatcher.forward(request, response);
     }
 
 
