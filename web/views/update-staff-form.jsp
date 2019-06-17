@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Add Student</title>
+	<title>Update Staff</title>
 
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/add-student-style.css">	
@@ -11,29 +11,30 @@
 <body>
 	<div id="wrapper">
 		<div id="header">
-			<h2>University Student</h2>
+			<h2>FooBar University</h2>
 		</div>
 	</div>
 	
 	<div id="container">
-		<h3>Add Student</h3>
+		<h3>Update Staff</h3>
 		
-		<form action="student" method="GET">
+		<form action="staff" method="GET">
 		
-			<input type="hidden" name="command" value="ADD" />
+			<input type="hidden" name="command" value="UPDATE" />
 			
 			<table>
 				<tbody>
 					<tr>
 						<td><label>Username:</label></td>
-						<td><input type="text" name="username" /></td>
+						<td><input type="text" name="username" readonly="readonly" value="${username}"/></td>
 					</tr>
 
 					<tr>
 						<td><label>Password:</label></td>
-						<td><input type="password" name="password" /></td>
+						<td><input type="password" name="password" value="${password}"/></td>
 					</tr>
-					<input type="hidden" name="type" value="Student"/>
+					<input type="hidden" name="id" value="${id}"/>
+					<input type="hidden" name="type" value="Staff"/>
 
 <%--					<tr>--%>
 <%--						<td><label>Email:</label></td>--%>
@@ -52,7 +53,7 @@
 		<div style="clear: both;"></div>
 		
 		<p>
-			<a href="StudentControllerServlet">Back to List</a>
+			<a href="StaffControllerServlet">Back to List</a>
 		</p>
 	</div>
 </body>

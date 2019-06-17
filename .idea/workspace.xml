@@ -7,10 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f427985a-140d-49c1-888f-cc9b6cb98980" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/wapFinalProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddStaffControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaffControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaffDbUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateStaffControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/add-staff-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/list-staff.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/update-staff-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/StudentControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/StudentControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/views/list-students.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/views/list-students.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/views/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ViewServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/welcome.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +44,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/list-students.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="57" column="106" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/list-staff.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStaffControllerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentDbUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="74" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StaffControllerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="110" column="58" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StudentControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="117" column="37" lean-forward="true" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+            <state relative-caret-position="230">
+              <caret line="110" column="58" lean-forward="true" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,64 +102,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentDbUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StaffDbUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="125">
+              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
+        <entry file="file://$PROJECT_DIR$/web/views/update-staff-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/list-students.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="57" column="105" selection-start-line="57" selection-start-column="105" selection-end-line="57" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/welcome.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/add-student-form.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStudentControllerServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/update-student-form.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="-32">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -111,10 +130,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>student</find>
       <find>studentdb</find>
       <find>deletelink</find>
       <find>delete</find>
+      <find>student</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,6 +149,14 @@
         <option value="$PROJECT_DIR$/web/views/list-students.jsp" />
         <option value="$PROJECT_DIR$/web/views/update-student-form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/StudentControllerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AddStaffControllerServlet.java" />
+        <option value="$PROJECT_DIR$/web/views/welcome.jsp" />
+        <option value="$PROJECT_DIR$/web/views/add-staff-form.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateStaffControllerServlet.java" />
+        <option value="$PROJECT_DIR$/web/views/update-staff-form.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/StaffDbUtil.java" />
+        <option value="$PROJECT_DIR$/web/views/list-staff.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/StaffControllerServlet.java" />
       </list>
     </option>
   </component>
@@ -215,7 +242,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -327,7 +354,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560783419891</updated>
       <workItem from="1560783424463" duration="379000" />
-      <workItem from="1560784009269" duration="10526000" />
+      <workItem from="1560784009269" duration="12087000" />
     </task>
     <task id="LOCAL-00001" summary="Add Student implementation">
       <created>1560788700582</created>
@@ -350,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560795717045</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update student done">
+      <created>1560800716543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560800716543</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10905000" />
+    <option name="totallyTimeSpent" value="12466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -370,8 +404,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -382,7 +416,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,6 +451,18 @@
           <line>61</line>
           <properties />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StaffControllerServlet.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StaffControllerServlet.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -487,38 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentDbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/add-student-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/list-students.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="57" column="105" selection-start-line="57" selection-start-column="105" selection-end-line="57" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/update-student-form.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -529,13 +547,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/add-student-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="47" column="24" selection-start-line="25" selection-start-column="16" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddStaffControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/add-staff-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/list-students.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="57" column="106" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/update-staff-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentDbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffDbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/list-staff.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStaffControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StudentControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="117" column="37" lean-forward="true" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+        <state relative-caret-position="230">
+          <caret line="110" column="58" lean-forward="true" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="110" column="58" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -597,7 +692,6 @@
             <option name="proportions">
               <list>
                 <option value="0.20689656" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

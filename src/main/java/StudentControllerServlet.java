@@ -21,7 +21,7 @@ public class StudentControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private StudentDbUtil studentDbUtil=new StudentDbUtil();
-	private List<User>users=new ArrayList<>();
+	private List<User> users=new ArrayList<>();
 	
 
 	
@@ -31,7 +31,7 @@ public class StudentControllerServlet extends HttpServlet {
 
 	}
 
-	private void allStudents(HttpServletRequest req,HttpServletResponse resp)throws ServletException,IOException {
+	private void allStudents(HttpServletRequest req,HttpServletResponse resp)throws ServletException, IOException {
 		ServletContext allUsersContext= req.getServletContext();
 		if(allUsersContext==null){
 			resp.sendRedirect("/");

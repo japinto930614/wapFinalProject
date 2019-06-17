@@ -25,10 +25,10 @@
                 <ul class="dropdown-menu">
                     <li><a href="/student">Students</a></li>
                     <li><a href="/faculties">Faculty Members</a></li>
-                    <li><a href="/rstaffs">Staffs</a></li>
+                    <li><a href="/staff">Staffs</a></li>
                 </ul>
             </li>
-            <li><a href="#"></a></li>
+         <!--   <li><a href="#"></a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="/rstudents">Students</a></li>
@@ -36,7 +36,7 @@
                     <li><a href="/rstaffs">Staffs</a></li>
                 </ul>
             </li>
-            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>-->
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
