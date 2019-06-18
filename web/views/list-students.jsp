@@ -68,6 +68,10 @@
 			</table>
 		
 		</div>
+
+		<p>
+			<a href="/welcome">Back to List</a>
+		</p>
 	
 	</div>
 </body>

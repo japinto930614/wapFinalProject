@@ -93,4 +93,9 @@ $(document).ready(function () {
         }
     });
 
+    $("#votingbutton").click(function () {
+        alert("Thank you for voting");
+        $("#votingform").submit();
+    })
+
 });

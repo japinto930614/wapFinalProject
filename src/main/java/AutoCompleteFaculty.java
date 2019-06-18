@@ -23,10 +23,15 @@ public class AutoCompleteFaculty extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        ServletContext allUsersContext= request.getServletContext();
+        if(allUsersContext==null){
+            response.sendRedirect("/");
+        }
+        users=(List<User>) allUsersContext.getAttribute("allUsers");
+
         PrintWriter out = response.getWriter();
         response.setContentType("text/html");
 
-        ServletContext allUsersContext= request.getServletContext();
         allUsersContext.setAttribute("allUsers",users);
 
         List<String> faculties = users.stream()
@@ -44,7 +49,7 @@ public class AutoCompleteFaculty extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//Do something
+
     }
 
     @Override

@@ -8,7 +8,7 @@ public class UserRepository {
     private  List<User>users=new ArrayList<>();
 
     public UserRepository(){
-        users.add(new User("1","User1","password1", Type.Student));
+        users.add(new User("1","User1","pass", Type.Student));
         users.add(new User("2","User2","password2", Type.Student));
         users.add(new User("3","User3","password3", Type.Student));
         users.add(new User("4","User4","password4", Type.Student));

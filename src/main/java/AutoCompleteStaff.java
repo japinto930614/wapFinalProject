@@ -23,10 +23,15 @@ public class AutoCompleteStaff extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        ServletContext allUsersContext= request.getServletContext();
+        if(allUsersContext==null){
+            response.sendRedirect("/");
+        }
+        users=(List<User>) allUsersContext.getAttribute("allUsers");
+
         PrintWriter out = response.getWriter();
         response.setContentType("text/html");
 
-        ServletContext allUsersContext= request.getServletContext();
         allUsersContext.setAttribute("allUsers",users);
 
         List<String> staffs = users.stream()
@@ -50,7 +55,7 @@ public class AutoCompleteStaff extends HttpServlet {
     @Override
     public void init() throws ServletException {
 
-        users.addAll(new UserRepository().getUsers());
+
 
 
         super.init();

@@ -7,32 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f427985a-140d-49c1-888f-cc9b6cb98980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VotingDbUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Vote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/js/welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FinalProject_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FinalProject_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FinalProject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FinalProject_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VotingServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/StudentDbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/StudentDbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/ViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/ViewServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/classes/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FinalProject_war_exploded/views/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StaffDbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaffDbUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StudentDbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentDbUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ViewServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Staff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentDbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentDbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ViewServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VotingDbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VotingDbUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/add-student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/add-student-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/js/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/js/welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/list-students.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/list-students.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/welcome.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,10 +34,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentDbUtil.java">
+        <entry file="file://$PROJECT_DIR$/web/views/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="144">
+              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentControllerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/js/welcome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -60,25 +66,70 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="80">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/VotingDbUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AddStudentControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AddFacultyControllerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="36" column="68" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-142">
+              <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VotingServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,9 +156,13 @@
       <find>studentdbutil</find>
       <find>jquery</find>
       <find>welcome</find>
-      <find>users</find>
       <find>userr</find>
       <find>student</find>
+      <find>studentdbu</find>
+      <find>allusers</find>
+      <find>user</find>
+      <find>back</find>
+      <find>users</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,7 +173,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/AddStudentControllerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/UpdateStudentControllerServlet.java" />
-        <option value="$PROJECT_DIR$/web/views/list-students.jsp" />
         <option value="$PROJECT_DIR$/web/views/update-student-form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/StudentControllerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddStaffControllerServlet.java" />
@@ -128,7 +182,6 @@
         <option value="$PROJECT_DIR$/web/views/list-staff.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/StaffControllerServlet.java" />
         <option value="$PROJECT_DIR$/web/views/add-staff-form.jsp" />
-        <option value="$PROJECT_DIR$/web/views/add-student-form.jsp" />
         <option value="$PROJECT_DIR$/web/views/list-faculties.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/FacultyDbUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/FacultyControllerServlet.java" />
@@ -143,16 +196,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/js/welcome.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ViewServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutoCompleteServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Vote.java" />
-        <option value="$PROJECT_DIR$/web/views/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/autocomplete/AutoCompleteStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VotingDbUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VotingServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ViewServlet.java" />
+        <option value="$PROJECT_DIR$/web/views/add-student-form.jsp" />
+        <option value="$PROJECT_DIR$/web/views/list-students.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java" />
         <option value="$PROJECT_DIR$/web/views/js/welcome.js" />
-        <option value="$PROJECT_DIR$/src/main/java/VotingDbUtil.java" />
+        <option value="$PROJECT_DIR$/web/views/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -258,7 +315,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -374,7 +431,7 @@
       <updated>1560783419891</updated>
       <workItem from="1560783424463" duration="379000" />
       <workItem from="1560784009269" duration="20130000" />
-      <workItem from="1560814043149" duration="7661000" />
+      <workItem from="1560814043149" duration="14195000" />
     </task>
     <task id="LOCAL-00001" summary="Add Student implementation">
       <created>1560788700582</created>
@@ -418,16 +475,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560803361761</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Voting logic">
+      <created>1560822735647</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560822735647</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28170000" />
+    <option name="totallyTimeSpent" value="34704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28271407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28271407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -437,7 +502,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,7 +535,8 @@
     <MESSAGE value="update student done" />
     <MESSAGE value="Integration of CRUD in Staff" />
     <MESSAGE value="Integration of CRUD in Faculty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration of CRUD in Faculty" />
+    <MESSAGE value="Voting logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Voting logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -498,6 +564,30 @@
           <line>110</line>
           <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/VotingDbUtil.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ViewServlet.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ViewServlet.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ViewServlet.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -534,23 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddStudentControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/update-student-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AddStaffControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -558,24 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/list-students.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="57" column="106" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/update-staff-form.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StaffDbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -642,24 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddFacultyControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UpdateFacultyControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/add-student-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -695,88 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStudentControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="126" column="4" selection-start-line="126" selection-start-column="4" selection-end-line="134" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="49" column="16" selection-start-line="47" selection-start-column="10" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/js/welcome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Vote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-127">
@@ -805,33 +768,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffDbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/update-student-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="28" column="104" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStudentControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StudentDbUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="180">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="74" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VotingDbUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#179#196#0" expanded="true" />
+            <element signature="e#252#269#0" expanded="true" />
+            <element signature="e#327#344#0" expanded="true" />
             <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ViewServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/add-student-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/list-students.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddStudentControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddFacultyControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VotingServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="36" column="68" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutoCompleteFaculty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/js/welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="80">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -893,6 +992,7 @@
             <option name="proportions">
               <list>
                 <option value="0.20689656" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -19,6 +19,8 @@ import java.util.stream.Collectors;
 @WebServlet("/welcome")
 public class ViewServlet extends HttpServlet {
     List<User> users = new ArrayList<>();
+    VotingDbUtil votingDbUtil = new VotingDbUtil();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -33,15 +35,6 @@ public class ViewServlet extends HttpServlet {
         List<String> students = users.stream()
                 .filter(x -> x.getType().equals(Type.Student)).map(x -> x.getUsername()).collect(Collectors.toList());
 
-//        json
-//        resp.setContentType("application/json");
-//        resp.setCharacterEncoding("UTF-8");
-//
-//
-//        String json = new Gson().toJson(students );
-//
-//        resp.getWriter().write(json);
-// ---
 
         ServletContext loogedUserContext= req.getServletContext();
         String username = req.getParameter("username");
@@ -55,6 +48,34 @@ public class ViewServlet extends HttpServlet {
         HttpSession session = req.getSession();
         boolean found = checkAccount(username, password);
             if(found) {
+                ServletContext allVotesContext= req.getServletContext();
+                allVotesContext.setAttribute("allVotes",votingDbUtil);
+
+                //get the persons that are winning so far
+                if(votingDbUtil.getWinnerStudent() != null){
+
+                    String studentwinner = votingDbUtil.getWinnerStudent();
+                    req.setAttribute("studentwinner", studentwinner);
+                    String staffwinner = votingDbUtil.getWinnerStaff();
+                    req.setAttribute("staffwinner", staffwinner);
+                    String facultywinner = votingDbUtil.getWinnerFaculty();
+                    req.setAttribute("facultywinner", facultywinner);
+
+                } else {
+                    req.setAttribute("studentwinner", "none");
+                    req.setAttribute("staffwinner", "none");
+                    req.setAttribute("facultywinner", "none");
+                }
+
+                if(isAdmin(username)){
+                    req.setAttribute("hiddenactors", "visible");
+                    req.setAttribute("hiddenvote", "collapse");
+                    req.setAttribute("hiddenresult", "visible");
+                } else {
+                    req.setAttribute("hiddenactors", "collapse");
+                    req.setAttribute("hiddenvote", "visible");
+                    req.setAttribute("hiddenresult", "collapse");
+                }
 
 
                 RequestDispatcher dispatcher = req.getRequestDispatcher("views/welcome.jsp");
@@ -123,6 +144,19 @@ public class ViewServlet extends HttpServlet {
         }
         return found;
     }
+
+    public boolean isAdmin(String username){
+        boolean result = false;
+        for(User user:users){
+            if(username.equalsIgnoreCase(user.getUsername())){
+                if(user.getType().equals(Type.Admin)){
+                    result = true;
+                }
+            }
+        }
+        return result;
+    }
+
 
     @Override
     public void init() throws ServletException {

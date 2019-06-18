@@ -5,9 +5,9 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class VotingDbUtil {
-    HashMap<String, Integer> voteStudent;
-    HashMap<String, Integer> voteStaff;
-    HashMap<String, Integer> voteFaculty;
+    HashMap<String, Integer> voteStudent = new HashMap<String, Integer>();
+    HashMap<String, Integer> voteStaff = new HashMap<String, Integer>();
+    HashMap<String, Integer> voteFaculty = new HashMap<String, Integer>();
 
     public void voteStudent(String username){
         if(voteStudent.containsKey(username)){

@@ -31,7 +31,7 @@
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
 
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Actors<span
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="visibility: ${hiddenactors}">Actors<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="/student">Students</a></li>
@@ -57,23 +57,37 @@
 </nav>
 
 <div class="container">
-    <form>
+    <form action="/vote" method='POST' id="votingform" style="visibility: ${hiddenvote}" >
     <div class="ui-widget">
         <label for="tagstudent">Students: </label>
-        <input id="tagstudent">
+        <input id="tagstudent" name="student">
     </div>
     <div class="ui-widget">
         <label for="tagstaff">Staff: </label>
-        <input id="tagstaff">
+        <input id="tagstaff" name="staff">
     </div>
     <div class="ui-widget">
         <label for="tagfaculty">Faculty: </label>
-        <input id="tagfaculty">
+        <input id="tagfaculty" name="faculty">
     </div>
         <div class="form-group">
-            <input type="submit" value="Vote" class="btn float-right login_btn">
+            <button id="votingbutton" class="btn float-right login_btn">Vote</button>
         </div>
     </form>
+    <div class="results" style="visibility: ${hiddenresult}">
+        <div>
+            <label for="resultstudent">Student winning: </label>
+            <input type="text" id="resultstudent" readonly="readonly" value="${studentwinner}"/>
+        </div>
+        <div>
+            <label for="resultstaff">Staff winning: </label>
+            <input type="text" id="resultstaff" readonly="readonly" value="${staffwinner}"/>
+        </div>
+        <div>
+            <label for="resultfaculty">Faculty winning: </label>
+            <input type="text" id="resultfaculty" readonly="readonly" value="${facultywinner}"/>
+        </div>
+    </div>
 </div>
 
 </body>
