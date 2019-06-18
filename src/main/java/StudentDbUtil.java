@@ -75,6 +75,16 @@ public class StudentDbUtil {
 		}
 
 	}
+
+	public List<String> search(String keyword) {
+		List<String> names = new ArrayList<String>();
+		for (User user : users) {
+			if (user.getUsername().toLowerCase().contains(keyword.toLowerCase())) {
+				names.add(user.getUsername());
+			}
+		}
+		return names;
+	}
 }
 
 

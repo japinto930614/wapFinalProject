@@ -1,4 +1,7 @@
+import com.google.gson.Gson;
+import models.Type;
 import models.User;
+
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -11,6 +14,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @WebServlet("/welcome")
 public class ViewServlet extends HttpServlet {
@@ -25,6 +29,19 @@ public class ViewServlet extends HttpServlet {
 
         ServletContext allUsersContext= req.getServletContext();
         allUsersContext.setAttribute("allUsers",users);
+
+        List<String> students = users.stream()
+                .filter(x -> x.getType().equals(Type.Student)).map(x -> x.getUsername()).collect(Collectors.toList());
+
+//        json
+//        resp.setContentType("application/json");
+//        resp.setCharacterEncoding("UTF-8");
+//
+//
+//        String json = new Gson().toJson(students );
+//
+//        resp.getWriter().write(json);
+// ---
 
         ServletContext loogedUserContext= req.getServletContext();
         String username = req.getParameter("username");
