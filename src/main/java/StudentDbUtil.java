@@ -57,22 +57,23 @@ public class StudentDbUtil {
 
 	public void deleteStudent(String theStudentId)  {
 
-//		for(User student:users){
-//			if(theStudentId.equals(student.getId())){
-//				int i=users.indexOf(student);
-//				users.remove(i);
-//			}
-//		}
-
-
-		for (Iterator<User> iterator = users.iterator(); iterator.hasNext(); ) {
-			User value = iterator.next();
-
-			if(theStudentId.equals(value.getId())){
-				int i=users.indexOf(value);
-				iterator.remove();
+		for(User student:users){
+			if(theStudentId.equals(student.getId())){
+				int i=users.indexOf(student);
+				users.remove(i);
+				break;
 			}
 		}
+
+
+//		for (Iterator<User> iterator = users.iterator(); iterator.hasNext(); ) {
+//			User value = iterator.next();
+//
+//			if(theStudentId.equals(value.getId())){
+//				int i=users.indexOf(value);
+//				iterator.remove();
+//			}
+//		}
 
 	}
 

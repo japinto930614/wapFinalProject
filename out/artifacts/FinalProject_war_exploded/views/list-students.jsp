@@ -68,6 +68,10 @@
 			</table>
 		
 		</div>
+
+<%--		<p>--%>
+<%--			<a href="/welcome">Back home</a>--%>
+<%--		</p>--%>
 	
 	</div>
 </body>

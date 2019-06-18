@@ -69,9 +69,9 @@
 		
 		</div>
 
-		<p>
-			<a href="/welcome">Back to List</a>
-		</p>
+<%--		<p>--%>
+<%--			<a href="/welcome">Back home</a>--%>
+<%--		</p>--%>
 	
 	</div>
 </body>
