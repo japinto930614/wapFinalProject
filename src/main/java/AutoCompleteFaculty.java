@@ -41,8 +41,6 @@ public class AutoCompleteFaculty extends HttpServlet {
 
         JSONArray arrayObj=new JSONArray(faculties);
 
-        String query = request.getParameter("term");
-        query = query.toLowerCase();
 
         out.println(arrayObj.toString());
         out.close();

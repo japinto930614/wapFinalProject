@@ -41,8 +41,8 @@ public class AutoCompleteStaff extends HttpServlet {
 
         JSONArray arrayObj=new JSONArray(staffs);
 
-        String query = request.getParameter("term");
-        query = query.toLowerCase();
+//        String query = request.getParameter("term");
+//        query = query.toLowerCase();
 
         out.println(arrayObj.toString());
         out.close();

@@ -48,8 +48,6 @@ public class AutoCompleteStudent extends HttpServlet {
 
         JSONArray arrayObj=new JSONArray(students);
 
-        String query = request.getParameter("term");
-        query = query.toLowerCase();
 
 
         out.println(arrayObj.toString());

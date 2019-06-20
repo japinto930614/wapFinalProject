@@ -22,6 +22,7 @@ public class UpdateFacultyControllerServlet extends HttpServlet {
         request.setAttribute("id",id);
         request.setAttribute("username", username);
         request.getRequestDispatcher("views/update-faculty-form.jsp").forward(request, response);
+
 //        RequestDispatcher dispatcher = request.getRequestDispatcher("views/update-faculty-form.jsp");
 //        dispatcher.forward(request, response);
     }
